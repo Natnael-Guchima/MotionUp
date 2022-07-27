@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.copy-link-text {
+  border: 3px solid #91ffec;
+  padding: 2rem 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.copy-link-btn {
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  background-color: #91ffec;
+  border: 0;
+}
+
+.copy-link {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+
+@media screen and (min-width: 500px) {
+  .copy-link {
+    flex-direction: row;
+  }
+
+  .copy-link-btn {
+    padding: 2rem 3rem;
+  }
+}
